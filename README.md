@@ -24,7 +24,7 @@ Verify that nodejs is installed by running "node -v" on terminal or cmd. It can 
 
 1. On root folder run
 ```
-npm start
+npm run dev
 ```
 
 ## Screenshots
