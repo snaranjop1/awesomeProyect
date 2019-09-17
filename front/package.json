@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "eslint": "^6.4.0",
     "navio": "0.0.60",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
@@ -30,5 +29,9 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:3001"
+  "proxy": "http://localhost:3001",
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "eslint-plugin-react": "^7.14.3"
+  }
 }

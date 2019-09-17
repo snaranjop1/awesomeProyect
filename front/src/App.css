@@ -24,3 +24,16 @@ body {
     text-align: center;
     color: black;
 }
+
+#naviocontainer {
+}
+
+#info {
+    color: black;
+}
+
+#infolabel {
+    color: black;
+    font-size: 2em;
+    font-weight: 600;
+}

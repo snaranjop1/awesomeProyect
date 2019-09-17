@@ -21,20 +21,6 @@ class Navio extends Component {
     return (
       <div className="container">
         <div ref={myDiv => (this.myDiv = myDiv)}></div>
-        <button
-          type="button"
-          className="btn btn-primary mb-2"
-          onClick={() => this.getUrl()}
-        >
-          Get dataset
-        </button>
-        <button
-          type="button"
-          className="btn btn-primary mb-2"
-          onClick={() => this.getUrl()}
-        >
-          Get dataset
-        </button>
       </div>
     );
   }
