@@ -17,7 +17,7 @@ class App extends Component {
   }
 
   getUrl(url) {
-    fetch(`${url}`)
+    fetch(url)
       .then(res => res.json())
       .then(data => console.log(data));
   }
