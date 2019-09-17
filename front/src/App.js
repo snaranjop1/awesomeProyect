@@ -16,21 +16,24 @@ class App extends Component {
 
   handleChange(event) {
     this.setState({ url: event.target.value });
-    event.preventDefault();
   }
 
-  getUrl(event) {
-    fetch(this.state.url)
+  getUrl() {
+    let offset = 0;
+    let dataEnd = false;
+
+    fetch(this.state.url + "?$limit=1000&$offset=0")
       .then(res => res.json())
-      .then(data => this.setState({ data: data, dataReady: true }));
+      .then(data => this.setState({ data: data, dataReady: true, url: "" }));
   }
 
   render() {
     return (
       <div id="main-container">
         <h1 className="jumbotron">Datos.gov data recolector</h1>
+        <h2 id="title">Enter the datos.gov url you want to visualize</h2>
         <div className="container">
-          <form className="form-inline">
+          <form className="form-inline" id="urlform">
             <div className="form-group mb-2">
               <label id="labeldatos">Datos.gov URL</label>
             </div>

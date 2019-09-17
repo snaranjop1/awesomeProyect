@@ -1,6 +1,6 @@
 .jumbotron {
     text-align: center;
-    font-size: 3.5vw;
+    font-size: 6vw;
     background: #222629;
     font-weight: 700;
     color: white;
@@ -12,4 +12,15 @@
 
 body {
     color: white;
+}
+
+#urlform {
+    margin-left: 29%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+
+#title {
+    text-align: center;
+    color: black;
 }
