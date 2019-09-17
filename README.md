@@ -6,7 +6,7 @@
 
 ## Links
 
-**Deployed at:** 
+**Deployed at:** https://awesomeproyect.herokuapp.com/
 
 ## Description
 
@@ -22,8 +22,10 @@ Verify that nodejs is installed by running "node -v" on terminal or cmd. It can 
 
 ### Steps to run develop version
 
-1. Check backend folder for complete instructions on how to execute the backend
-2. Check frontend folder for complete instructions on how to execute the frontend
+1. On root folder run
+```
+npm run dev
+```
 
 ## Screenshots
 
