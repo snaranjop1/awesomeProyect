@@ -11,6 +11,7 @@
 ## Description
 
 ## Objective
+The objective of this proyect is to make a visualization of a dataset of the datos.gov API in order to make analisis over the data in a simplier way
 
 ## Instructions to execute
 
