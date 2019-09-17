@@ -22,7 +22,7 @@ class App extends Component {
     let offset = 0;
     let dataEnd = false;
 
-    fetch(this.state.url + "?$limit=1000&$offset=0")
+    fetch(this.state.url)
       .then(res => res.json())
       .then(data => this.setState({ data: data, dataReady: true, url: "" }));
   }
