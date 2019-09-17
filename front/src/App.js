@@ -7,19 +7,22 @@ class App extends Component {
     super(props);
     this.state = {
       url: "",
-      data: []
+      data: [],
+      dataReady: false
     };
+
     this.handleChange = this.handleChange.bind(this);
   }
 
   handleChange(event) {
     this.setState({ url: event.target.value });
+    event.preventDefault();
   }
 
-  getUrl(url) {
-    fetch(url)
+  getUrl(event) {
+    fetch(this.state.url)
       .then(res => res.json())
-      .then(data => console.log(data));
+      .then(data => this.setState({ data: data, dataReady: true }));
   }
 
   render() {
@@ -41,15 +44,15 @@ class App extends Component {
               ></input>
             </div>
             <button
-              type="submit"
+              type="button"
               className="btn btn-primary mb-2"
-              onClick={() => this.getUrl(this.state.url)}
+              onClick={() => this.getUrl()}
             >
               Get dataset
             </button>
           </form>
         </div>
-        <Navio data={this.state.data} />
+        {this.state.dataReady && <Navio data={this.state.data}></Navio>}
       </div>
     );
   }

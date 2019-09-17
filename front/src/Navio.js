@@ -7,7 +7,10 @@ class Navio extends Component {
   }
 
   update() {
-    new navio(this.myDiv, 600);
+    console.log("We got the data", this.props.data);
+    let nav = navio(this.myDiv, 600);
+    nav.data(this.props.data);
+    nav.addAllAttribs();
   }
 
   render() {
