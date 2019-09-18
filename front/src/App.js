@@ -46,7 +46,7 @@ class App extends Component {
 
   getdatainfo() {
     fetch(
-      "https://www.datos.gov.co/resource/r2nq-5bst.json?id=" + this.state.id
+      "https://www.datos.gov.co/resource/gc9e-9mzf.json?id=" + this.state.id
     )
       .then(res => res.json())
       .then(data =>
@@ -102,7 +102,7 @@ class App extends Component {
   render() {
     return (
       <div id="main-container">
-        <h1 className="jumbotron">Datos.gov data recolector</h1>
+        <h1 className="jumbotron">Datos.gov data visualizer</h1>
         <h2 id="title">Enter the datos.gov url you want to visualize</h2>
         <div className="container">
           <form className="form-inline" id="urlform">
