@@ -40,7 +40,8 @@ npm run dev
 
 ### Main Menu
 
-![Awesome Mini Proyect ]()
+![Awesome Mini Proyect ](./sc1.JPG)
+![Awesome Mini Proyect 2](./sc2.JPG)
 
 ## Licence
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
