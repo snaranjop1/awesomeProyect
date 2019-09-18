@@ -18,6 +18,13 @@ This web app allows to create a visualization on a datos.org dataset and get the
 - https://www.datos.gov.co/resource/ghaq-4zn7.json
 - https://www.datos.gov.co/resource/bda4-k8j4.json
 
+## Technologies
+This proyect was developed using the following technologies:
+
+- For the client-side layer i used **React**
+- for dataviz i used **navio**
+- For the server-side layer i used **Node** and **Express**
+
 ## Objective
 The objective of this proyect is to make a visualization of a dataset of the datos.gov API in order to make analisis over the data in a simplier way
 
