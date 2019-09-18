@@ -9,6 +9,14 @@
 **Deployed at:** https://awesomeproyect.herokuapp.com/
 
 ## Description
+This web app allows to create a visualization on a datos.org dataset and get the basic info of the dataset.
+- I would like to be evalued with the second option (deadline tuesday 17 8:00pm)
+- The creative component is the part of showing the dataset info, for this i had to go to the datos.gov data inventory dataset (https://www.datos.gov.co/Ciencia-Tecnolog-a-e-Innovaci-n/Inventario-de-datos-abiertos-del-portal-datos-gov-/gc9e-9mzf/data). Some datasets are not registered here so the component works with the ones registered like:
+
+- https://www.datos.gov.co/resource/rn5x-txtx.json
+- https://www.datos.gov.co/resource/ey95-rpvs.json
+- https://www.datos.gov.co/resource/ghaq-4zn7.json
+- https://www.datos.gov.co/resource/bda4-k8j4.json
 
 ## Objective
 The objective of this proyect is to make a visualization of a dataset of the datos.gov API in order to make analisis over the data in a simplier way
