@@ -42,6 +42,7 @@ Verify that nodejs is installed by running "node -v" on terminal or cmd. It can 
 ```
 npm run dev
 ```
+2. The proyect should be running at localhost:3001
 
 ## Screenshots
 
